@@ -29,6 +29,7 @@ const Home  = () => {
             <div className="container">
                 <Social />
                 <Header />
+                <About />
             </div>
             <Particles
                 id="tsparticles"
@@ -47,7 +48,7 @@ const Home  = () => {
                         limit: 50,
                         density: {
                         enable: true,
-                        value_area: 800
+                        value_area: 1000
                         }
                     },
                     color: {

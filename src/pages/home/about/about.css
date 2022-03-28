@@ -1,0 +1,33 @@
+.about{
+    width: 75%;
+    margin: auto;
+}
+
+.about .container{
+    margin: 20px;
+}
+
+.about .profile{
+    background-color: rgba(221, 221, 221, 0.5);
+    /* filter: blur(10px); */
+    width: 300px;
+    color: #000;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about .profile .card{
+    padding: 5px;
+}
+
+.about .profile ul li{
+    margin-top: 2px;
+    list-style: none;
+}
+
+.about .profile img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
