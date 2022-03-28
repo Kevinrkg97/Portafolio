@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.4437ac8c.css",
+    "main.js": "/Portafolio/static/js/main.d58b512d.js",
+    "static/js/787.d16e9580.chunk.js": "/Portafolio/static/js/787.d16e9580.chunk.js",
+    "static/media/dev.svg": "/Portafolio/static/media/dev.a2086ac33727c0c94d1979fe23f34afb.svg",
+    "static/media/github.svg": "/Portafolio/static/media/github.833b63e28cadf07403bc81451d30b858.svg",
+    "static/media/whatsapp.svg": "/Portafolio/static/media/whatsapp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
+    "static/media/twitter.svg": "/Portafolio/static/media/twitter.7b0966c673ac146ae16dfeaa6ecc2eb1.svg",
+    "index.html": "/Portafolio/index.html",
+    "static/media/linkedin.svg": "/Portafolio/static/media/linkedin.35d7cb01584842580623e4e827edfe6d.svg",
+    "main.4437ac8c.css.map": "/Portafolio/static/css/main.4437ac8c.css.map",
+    "main.d58b512d.js.map": "/Portafolio/static/js/main.d58b512d.js.map",
+    "787.d16e9580.chunk.js.map": "/Portafolio/static/js/787.d16e9580.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4437ac8c.css",
+    "static/js/main.d58b512d.js"
+  ]
+}
