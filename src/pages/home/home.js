@@ -6,7 +6,6 @@ import Social from '../../components/social/social';
 import Footer from '../../components/footer/footer';
 import Header from './header/header';
 import About from './about/about';
-import Skills from './skills/skills';
 import Portfolio from './portfolio/portfolio';
 import Certificates from './certificates/certificates';
 
@@ -30,6 +29,7 @@ const Home  = () => {
                 <Social />
                 <Header />
                 <About />
+                <Portfolio />
             </div>
             <Particles
                 id="tsparticles"

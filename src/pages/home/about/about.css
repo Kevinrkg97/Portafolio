@@ -1,20 +1,24 @@
 .about{
     width: 75%;
     margin: auto;
+    display: flex;
 }
 
 .about .container{
     margin: 20px;
+    
 }
 
 .about .profile{
-    background-color: rgba(221, 221, 221, 0.5);
+    background-color: rgba(249, 168, 38, 0.5);
     /* filter: blur(10px); */
+    backdrop-filter: blur(20px);
     width: 300px;
     color: #000;
     list-style: none;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin: auto;
 }
 
 .about .profile .card{
@@ -28,6 +32,58 @@
 
 .about .profile img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+.about .description {
+    background-color: rgba(14, 183, 212, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    width: 75%;
+    padding: 20px;
+    margin: 20px;
+    text-shadow: 1px 1px 2px black;
+    word-spacing: 2px;
+}
+
+.about .description p{
+    margin: 10px 0;
+}
+
+.about .content{
+    position: relative;
+    z-index: 1;
+}
+
+.about .card li{
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #000;
     
+}
+.about .card img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.about .buttons{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+ .about a{
+    padding: 5px 30px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background: #F9A826;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f1b656, #F9A826);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f1b656, #F9A826); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;    
 }
