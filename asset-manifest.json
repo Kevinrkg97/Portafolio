@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.54acebe4.css",
-    "main.js": "/Portafolio/static/js/main.93f6ac5c.js",
-    "static/js/787.d16e9580.chunk.js": "/Portafolio/static/js/787.d16e9580.chunk.js",
+    "main.css": "/Portafolio/static/css/main.eaece38d.css",
+    "main.js": "/Portafolio/static/js/main.1889a031.js",
+    "static/js/787.5c0b2d12.chunk.js": "/Portafolio/static/js/787.5c0b2d12.chunk.js",
     "static/media/profile.jpg": "/Portafolio/static/media/profile.937a573759aa1431a8b7.jpg",
+    "static/media/changoonga.png": "/Portafolio/static/media/changoonga.258e38cfcdc8e06ea8fa.png",
+    "static/media/geoaplication.png": "/Portafolio/static/media/geoaplication.eeaf9a95ec70aa30504a.png",
+    "static/media/pokeApi.png": "/Portafolio/static/media/pokeApi.662927d11d98c3f4f5c7.png",
+    "static/media/indicio.png": "/Portafolio/static/media/indicio.4909aa865dddee9e0d09.png",
     "static/media/RKGG.pdf": "/Portafolio/static/media/RKGG.0d60c68046896892db8b.pdf",
     "static/media/mexico.png": "/Portafolio/static/media/mexico.5c8fa02912e3c9c5d12c.png",
+    "static/media/formLogin.png": "/Portafolio/static/media/formLogin.ef2993f03d467f014505.png",
     "static/media/dev.svg": "/Portafolio/static/media/dev.a2086ac33727c0c94d1979fe23f34afb.svg",
     "static/media/calendar.png": "/Portafolio/static/media/calendar.583b580ca86ad8f47e70.png",
     "static/media/phone.png": "/Portafolio/static/media/phone.fb244201058d6b0c101c.png",
@@ -14,12 +19,12 @@
     "static/media/twitter.svg": "/Portafolio/static/media/twitter.7b0966c673ac146ae16dfeaa6ecc2eb1.svg",
     "index.html": "/Portafolio/index.html",
     "static/media/linkedin.svg": "/Portafolio/static/media/linkedin.35d7cb01584842580623e4e827edfe6d.svg",
-    "main.54acebe4.css.map": "/Portafolio/static/css/main.54acebe4.css.map",
-    "main.93f6ac5c.js.map": "/Portafolio/static/js/main.93f6ac5c.js.map",
-    "787.d16e9580.chunk.js.map": "/Portafolio/static/js/787.d16e9580.chunk.js.map"
+    "main.eaece38d.css.map": "/Portafolio/static/css/main.eaece38d.css.map",
+    "main.1889a031.js.map": "/Portafolio/static/js/main.1889a031.js.map",
+    "787.5c0b2d12.chunk.js.map": "/Portafolio/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54acebe4.css",
-    "static/js/main.93f6ac5c.js"
+    "static/css/main.eaece38d.css",
+    "static/js/main.1889a031.js"
   ]
 }
