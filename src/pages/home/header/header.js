@@ -16,8 +16,8 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className='text'>
-                    <h2>Mi nombre es Kevin Guzmán</h2>
-                    <h3>Soy desarrollador de software</h3>
+                    <h2>Soy Desarrollador </h2>
+                    <h3>de Software</h3>
                     <button className="contactBtn" href='#contacto'>Contáctame</button>
                 </div>
                 <div className='image'>

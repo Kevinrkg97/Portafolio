@@ -38,13 +38,10 @@ const Home  = () => {
                 width='100%'
                 height='100vh'
                 options={{
-                    fullScreen: {
-                    enable: false,
-                    zIndex: 0
-                    },
+                  
                     particles: {
                     number: {
-                        value: 30,
+                        value: 50,
                         limit: 50,
                         density: {
                         enable: true,
@@ -57,7 +54,7 @@ const Home  = () => {
                     shape: {
                         type: "circle",
                         stroke: {
-                        width: 1,
+                        width: 3,
                         color: "#000000"
                         },
                         polygon: {
@@ -65,12 +62,12 @@ const Home  = () => {
                         },
                         image: {
                         src: "images/github.svg",
-                        width: 100,
+                        width: 200,
                         height: 100
                         }
                     },
                     opacity: {
-                        value: 0.3,
+                        value: 0.4,
                         random: true,
                         anim: {
                         enable: true,
@@ -80,7 +77,7 @@ const Home  = () => {
                         }
                     },
                     size: {
-                        value: 20,
+                        value: 40,
                         random: true,
                         anim: {
                         enable: true,
@@ -109,26 +106,9 @@ const Home  = () => {
                         rotateX: 600,
                         rotateY: 1200
                         }
-                    }
                     },
-                    interactivity: {
-                    detect_on: "canvas",
-                    events: {
-                        onHover: {
-                        enable: true,
-                        mode: "bubble",
-                        parallax: {
-                            enable: false,
-                            force: 30,
-                            smooth: 5
-                        }
-                        },
-                        onClick: {
-                        enable: true,
-                        mode: "push"
-                        },
-                        resize: true
-                    },
+                    
+                
                     modes: {
                         grab: {
                         distance: 400,
