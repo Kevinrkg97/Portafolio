@@ -3,23 +3,37 @@ import changoonga from './assets/changoonga.png';
 import formLogin from './assets/formLogin.png';
 import indicio from './assets/indicio.png';
 import pokeApi from './assets/pokeApi.png';
+import predict from './assets/predict.png';
+import matrona from './assets/matrona.jpg';
+import dbs from './assets/dbs.png';
 
 
 const portfolioValues = [
     [
+      
+      {
+        src: matrona
+      },
       {
         src: changoonga
-      },
+},
+{
+  src: predict
+},
       {
         src:
          geoaplication
       },
+      
       {
         src:
           indicio
       },
       {
         src: pokeApi
+      },
+      {
+        src: dbs
       },
         {
         src:

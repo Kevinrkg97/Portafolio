@@ -1,13 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import './home.css';
-import Navbar from '../../components/navbar/navbar';
 import Social from '../../components/social/social';
-import Footer from '../../components/footer/footer';
 import Header from './header/header';
 import About from './about/about';
 import Portfolio from './portfolio/portfolio';
-import Certificates from './certificates/certificates';
+import Skills from './skills/skills';
 
 const Home  = () => {
 
@@ -30,6 +28,7 @@ const Home  = () => {
                 <Header />
                 <About />
                 <Portfolio />
+                <Skills />
             </div>
             <Particles
                 id="tsparticles"

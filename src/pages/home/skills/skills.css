@@ -1,0 +1,68 @@
+.skills{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.skills .certificates{
+    width: 40%;
+}
+
+.skills .certificates img{
+    width: 100%;
+}
+
+.skills .technologies{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.circular-chart {
+    display: block;
+    margin: 20px;
+    max-height: 100px;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .skills .flutter, .circle{
+    stroke: #0468d7;
+    background-image: url('./assets/flutter.png');
+  }.skills .flask, .circle{
+    stroke: #fff;
+    background-image: url('./assets/flask.png');
+  }.skills .pandas, .circle{
+    stroke: #130654 ;
+    background-image: url('./assets/pandas.svg');
+  }.skills .react, .circle{
+    stroke: #61dafb;
+    background-image: url('./assets/react.png');
+  }.skills .sql, .circle{
+    stroke: #f29221;
+    background-image: url('./assets/mysql.png');
+  }.skills .wordpress, .circle{
+    stroke: #0073aa;
+    background-image: url('./assets/wordpress.png');
+  }
+  
+  
+  .circle {
+    fill: none;
+    stroke-width: 1.3;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+    
+    
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
