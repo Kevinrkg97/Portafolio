@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <section className='header' id='inicio'>
             <div className='container' >
-                <div className='nav'>
+                <div className='navhead'>
                     <ul>
                         <a href='#Inicio'><li>Inicio</li><span /></a>
                         <a href='#SobreMi'><li>Sobre mí</li><span /></a>

@@ -1,11 +1,16 @@
 import React from "react";
 import Particles from "react-tsparticles";
+
 import './home.css';
 import Social from '../../components/social/social';
 import Header from './header/header';
 import About from './about/about';
 import Portfolio from './portfolio/portfolio';
 import Skills from './skills/skills';
+import Navbar from "../../components/navbar/navbar";
+import Contact from './contact/contact';
+import ScrollToTop from "../../components/scrollToTop/scrollToTop";
+
 
 const Home  = () => {
 
@@ -24,12 +29,16 @@ const Home  = () => {
     return (
         <div className="home">  
             <div className="container">
+                <Navbar />
                 <Social />
                 <Header />
                 <About />
                 <Portfolio />
                 <Skills />
+                <Contact />
+                <ScrollToTop />
             </div>
+
             <Particles
                 id="tsparticles"
                 init={particlesInit}

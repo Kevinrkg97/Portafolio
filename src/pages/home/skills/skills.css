@@ -31,22 +31,22 @@
     background-repeat: no-repeat;
   }
 
-  .skills .flutter, .circle{
+  .skills .flutter, .circle1{
     stroke: #0468d7;
     background-image: url('./assets/flutter.png');
-  }.skills .flask, .circle{
+  }.skills .flask, .circle2{
     stroke: #fff;
     background-image: url('./assets/flask.png');
-  }.skills .pandas, .circle{
+  }.skills .pandas, .circle3{
     stroke: #130654 ;
     background-image: url('./assets/pandas.svg');
-  }.skills .react, .circle{
+  }.skills .react, .circle4{
     stroke: #61dafb;
     background-image: url('./assets/react.png');
-  }.skills .sql, .circle{
+  }.skills .sql, .circle5{
     stroke: #f29221;
     background-image: url('./assets/mysql.png');
-  }.skills .wordpress, .circle{
+  }.skills .wordpress, .circle6{
     stroke: #0073aa;
     background-image: url('./assets/wordpress.png');
   }

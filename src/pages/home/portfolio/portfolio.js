@@ -2,7 +2,6 @@ import ReactCarousel, { AFTER, CENTER, BEFORE } from "react-carousel-animated";
 import './portfolio.css';
 import "react-carousel-animated/dist/style.css";
 import portfolioValues from "./portfolioValues";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const Portfolio = () => {
     return (

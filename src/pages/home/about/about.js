@@ -25,7 +25,7 @@ const About = () => {
             <div className='description'>
                 <div className='content'>
                     <h2>Sobre Mí</h2>
-                    <p>Mi nombre es  Kevin Guzmán, me dedico principalmente al desarrollo web y móvil, tengo una carrera en Ing. en Sistemas y actualmente curso la Ing. en Ciencias de Datos.</p>
+                    <p>Mi nombre es  Kevin Guzmán, me dedico principalmente al desarrollo web y móvil, tengo una carrera en Ing. en Sistemas.</p>
                     <p>Aunque me dedico al desarrollo full stack me interesa bastante Machine Learning, tengo conocimientos en estadística.</p>
                     <p>Me considero una persona con gusto por el aprendizaje y que se enfoca en resolver de la mejor forma los problemas.</p>
                 </div>
