@@ -1,21 +1,20 @@
 .skills{
-    display: flex;
-    width: 75%;
+    display: flex;    
+    flex-wrap: wrap;
+    width: 80%;
     margin: auto;
     padding: 40px 0;
 }
 
 .skills .certificates{
-    width: 40%;
+    /* width: 40%; */
 }
 
 .skills .certificates img{
-    width: 100%;
+    width: 500px;
 }
 
 .skills .technologies{
-    width: 50%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -24,7 +23,7 @@
 
 .circular-chart {
     display: block;
-    margin: 20px;
+    margin: 30px;
     max-height: 100px;
     background-size: 50%;
     background-position: center;
@@ -65,4 +64,23 @@
     0% {
       stroke-dasharray: 0 100;
     }
+  }
+
+  @media (min-width: 540px) {
+  
+  }
+  @media (min-width: 720px) {
+    .skills{
+      flex-wrap: initial;
+    }
+  }
+  @media (min-width: 960px) {
+   
+  }
+  @media (min-width: 1140px) {
+    
+  }
+  
+  @media (min-width: 1320px) {
+    
   }

@@ -29,10 +29,10 @@ const Home  = () => {
     return (
         <div className="home">  
             <div className="container">
-                <Navbar />
+                {/* <Navbar /> */}
                 <Social />
                 <Header />
-                <About />
+                 <About />
                 <Portfolio />
                 <Skills />
                 <Contact />

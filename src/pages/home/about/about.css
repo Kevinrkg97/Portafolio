@@ -1,19 +1,19 @@
 .about{
-    width: 75%;
+    width: 95%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about .container{
     margin: 20px;
-    
+    width: 70%;
+    margin: auto;
 }
 
 .about .profile{
     background-color: rgba(255, 255, 255, 0.5);
-    /* filter: blur(10px); */
     backdrop-filter: blur(20px);
-    width: 300px;
     text-shadow: none;
     font-weight: 400;
     color: #000;
@@ -41,8 +41,8 @@
     background-color: rgba(14, 183, 212, 0.3);
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    width: 75%;
     padding: 20px;
+    padding-bottom: 40px;
     margin: 20px;
     text-shadow: 1px 1px 2px black;
     word-spacing: 2px;
@@ -88,4 +88,26 @@
     background: -webkit-linear-gradient(to right, #f1b656, #F9A826);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f1b656, #F9A826); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     cursor: pointer;    
+}
+
+@media (min-width: 540px) {
+  
+}
+@media (min-width: 720px) {
+  
+}
+@media (min-width: 960px) {
+    .about{
+        width: 90%;
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 1140px) {
+    .about .container .profile{
+        width: 60%;
+    }
+}
+
+@media (min-width: 1320px) {
+  
 }

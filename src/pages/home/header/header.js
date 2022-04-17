@@ -6,8 +6,7 @@ const Header = () => {
   
     return (
         <section className='header' id='inicio'>
-            <div className='container' >
-                <div className='navhead'>
+            <div className='navhead'>
                     <ul>
                         <a href='#Inicio'><li>Inicio</li><span /></a>
                         <a href='#SobreMi'><li>Sobre mí</li><span /></a>
@@ -15,10 +14,11 @@ const Header = () => {
                         <a href='#Habilidades'><li>Habilidades</li><span /></a>
                     </ul>
                 </div>
+            <div className='container' >   
                 <div className='text'>
                     <h2>Soy Desarrollador </h2>
                     <h3>de Software</h3>
-                    <button className="contactBtn" href='#contacto'>Contáctame</button>
+                    <button className="contactBtn" href='#Contacto'>Contáctame</button>
                 </div>
                 <div className='image'>
                     <img src={dev} alt='dev'></img>

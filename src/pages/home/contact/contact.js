@@ -47,7 +47,7 @@ export default function Contact (){
 
 
     return(
-        <form className="contact" id="contact">
+        <form className="contact" id="Contacto">
             {!usuarioValido &&
             <>
                 <h2>Contáctame</h2>
