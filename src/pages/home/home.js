@@ -8,6 +8,7 @@ import About from './about/about';
 import Portfolio from './portfolio/portfolio';
 import Skills from './skills/skills';
 import Navbar from "../../components/navbar/navbar";
+import Footer from '../../components/footer/footer';
 import Contact from './contact/contact';
 import ScrollToTop from "../../components/scrollToTop/scrollToTop";
 
@@ -36,6 +37,7 @@ const Home  = () => {
                 <Portfolio />
                 <Skills />
                 <Contact />
+                <Footer />
                 <ScrollToTop />
             </div>
 

@@ -32,10 +32,12 @@ const Portfolio = () => {
         carouselHeight="500px"
       >
         {portfolioValues[0].map((image, index) => (
+          <a href={image.link}>
           <img
             key={index}
             src={image.src}
             alt="test"
+
             style={{
               maxHeight: "300px",
               maxWidth: "400px",
@@ -44,6 +46,7 @@ const Portfolio = () => {
               margin: ".5rem"
             }}
           />
+          </a>
         ))}
       </ReactCarousel>
     </div>

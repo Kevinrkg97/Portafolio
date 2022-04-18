@@ -6,14 +6,14 @@ const Header = () => {
   
     return (
         <section className='header' id='inicio'>
-            <div className='navhead'>
+            {/* <div className='navhead'>
                     <ul>
-                        <a href='#Inicio'><li>Inicio</li><span /></a>
-                        <a href='#SobreMi'><li>Sobre mí</li><span /></a>
-                        <a href='#Portafolio'><li>Portafolio</li><span /></a>
-                        <a href='#Habilidades'><li>Habilidades</li><span /></a>
+                        <a href='#Inicio'><li>Inicio</li></a>
+                        <a href='#SobreMi'><li>Sobre mí</li></a>
+                        <a href='#Portafolio'><li>Portafolio</li></a>
+                        <a href='#Habilidades'><li>Habilidades</li></a>
                     </ul>
-                </div>
+                </div> */}
             <div className='container' >   
                 <div className='text'>
                     <h2>Soy Desarrollador </h2>

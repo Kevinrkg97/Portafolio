@@ -10,6 +10,10 @@
     /* width: 40%; */
 }
 
+.skills .slide-holder{
+  margin: 0 10px;
+}
+
 .skills .certificates img{
     width: 500px;
 }
@@ -70,12 +74,23 @@
   
   }
   @media (min-width: 720px) {
-    .skills{
+    /* .skills{
       flex-wrap: initial;
-    }
+    } */
   }
   @media (min-width: 960px) {
-   
+    .skills{
+      flex-wrap: nowrap;
+      margin: auto;
+    }
+
+    .skills .certificates{
+      width: 40%;
+    }
+
+    .skills .technologies{
+      width: 60%;
+    }
   }
   @media (min-width: 1140px) {
     

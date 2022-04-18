@@ -16,7 +16,7 @@ const Skills = () => {
                showStatus={false}
                infiniteLoop
                autoPlay
-               // emulateTouch
+               emulateTouch
                useKeyboardArrows
                transitionTime={1000}
             //    axis="vertical"
@@ -25,7 +25,8 @@ const Skills = () => {
                //    selectedItem={1}
              >
                  <div className='slide-holder'>
-                    <img src={flutter} alt='flutter' />
+                     
+                    <img src={flutter} alt='flutter'  />
                 </div>
                 <div className='slide-holder'>
                     <img src={react} alt='react' />

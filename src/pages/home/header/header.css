@@ -52,12 +52,6 @@
     color: #F9A826;
 }
 
-.header .ul span{
-    height: 50px;
-    background-color: white;
-}
-  
-
 .contactBtn {
     position: relative;
     margin-top: 60px;
@@ -144,7 +138,6 @@
       flex-wrap: nowrap;
 
   }
-
   .header .text{
       font-size: 25px;
   }
@@ -155,8 +148,6 @@
     }
     .header .container{
         width: 80%;
-     
-
     }
  
   .header .navhead ul{

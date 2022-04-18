@@ -12,10 +12,12 @@ const portfolioValues = [
     [
       
       {
-        src: matrona
+        src: matrona,
+        link: ''
       },
       {
-        src: changoonga
+        src: changoonga,
+        link: 'https://play.google.com/store/apps/details?id=com.changoonga.changoonga'
 },
 {
   src: predict
@@ -27,13 +29,15 @@ const portfolioValues = [
       
       {
         src:
-          indicio
+          indicio,
+          link: 'https://play.google.com/store/apps/details?id=com.gruporvi2.indiciomich'
       },
       {
         src: pokeApi
       },
       {
-        src: dbs
+        src: dbs,
+        link: 'https://digitalboostsolutions.com/'
       },
         {
         src:
